@@ -355,7 +355,7 @@ a:hover{color: #000;}
 	}
 	#backtotop{
 		right: 12px;
-		
+
 	}
 	#footer{
 		display: block;
@@ -367,5 +367,8 @@ a:hover{color: #000;}
 	.fo-ul{
 		margin: 0;
 		display: contents;
+	}
+	.row,#about{
+		background-attachment:scroll;
 	}
 }
