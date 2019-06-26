@@ -325,6 +325,9 @@ a:hover{color: #000;}
 }
 /*MAX-WIDTH:450px*/
 @media screen and (max-width: 450px) {
+	.vertical-container{
+		height: 500px;
+	}
 	.vertical-content h2{
 		font-size: 0.5em;
 	}
@@ -332,16 +335,37 @@ a:hover{color: #000;}
 		font-size: 0.1em;
 	}
 	.vertical-content{
-		height: 200px
+		height: 125px
 	}
 	.title-img{
-		top: 150px;
+		top: 33px;
 	}
 	.title-img img{
-	width: 200px;
+	width: 140px;
 	}
 	.row-content ul li{
 		margin-bottom: 20px;
 
+	}
+	.goto-next{
+		bottom: -90px;
+	}
+	#portfolio{
+		padding-top: 1px;
+	}
+	#backtotop{
+		right: 12px;
+		
+	}
+	#footer{
+		display: block;
+	}
+	.footer-content{
+		letter-spacing:2px;
+		padding-top:30px;
+	}
+	.fo-ul{
+		margin: 0;
+		display: contents;
 	}
 }
